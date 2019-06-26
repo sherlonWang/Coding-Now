@@ -2,6 +2,7 @@
 
 - [Coding Now](#Coding-Now)
     - [初衷](#初衷)
+    - [每周推荐](#每周推荐)
     - [GitHub及Git使用](#GitHub及Git使用)
     - [Linux系统下开发环境搭建](#Linux系统下开发环境搭建)
     - [Linux命令及Shell脚本学习笔记](#Linux命令及Shell脚本学习笔记)
@@ -47,6 +48,16 @@
 ## 初衷
 
 一是平时看的一些自己认为不错的文章总是很难整理，所以打算开一个项目管理这些，也可以分享给大家；二是记录自己平时所学的一些笔记，一些经历，以供将来翻阅；三是想系统地进阶学习一番，记录这个项目也是想激励自己；四是分享一些平时看的电子书啊、视频等等
+
+## 每周推荐
+- [如何阅读源码？](https://github.com/josonle/Interview-Summary/tree/master/EveryDay-Reading/2019-05-28#%E5%A6%82%E4%BD%95%E9%98%85%E8%AF%BB%E6%BA%90%E7%A0%81)
+> 没办法，要深入学习必须要看源码。身为小菜鸟的我，每逢看源码时就找不到个准头，看着看着就迷糊了。恰巧今天逛知识星球时，看一个球友的回答觉得非常好，特此转录一下
+
+- 如何写好注释
+  - [请停止代码注释](https://juejin.im/post/5cf60bc8f265da1baa1e609e)
+  - [如何写Java文档注释(Java Doc Comments)](https://www.cnblogs.com/boring09/p/4274893.html)
+> 注释也很重要啊，菜的抠脚的我，每次都是写完代码后再补充注释，哈哈哈。。。
+
 
 ## GitHub及Git使用
 
@@ -235,11 +246,14 @@
   - [机器学习：数据预处理之独热编码（One-Hot）_慕课手记](http://www.imooc.com/article/35900)
 
 ## 大数据篇
-
+### 学习大数据的一点感悟
 - 我的学习记录：[BigData-Learning](https://github.com/josonle/BigData-Learning)
+- 我阅读《Spark 权威指南》的笔记和心得：
+  - github上 [Spark-The-Definitive-Guide-Learning](https://github.com/josonle/Spark-The-Definitive-Guide-Learning)
+  - [更好的阅读体验，同步于掘金](https://juejin.im/post/5cd3dc06e51d456e2d69a83e)
 - 推荐一个国外的 Big Data 入门学习网站：[Simple and Easy Learning for Big Data & Analytics](https://www.tutorialspoint.com/big_data_tutorials.htm)（要好好学English( ⊙ o ⊙ )啊！）
 
-其实，不管是大数据还是其他知识的学习，我认为最好的方法无非是先找个视频快速过一遍，总体上了解这门技术干嘛的，是否适合自己。然后结合官网文档细致地过一遍，学习过程中最好结合前人大牛的博客，都是经验之得你说要不要看。最后就是项目了，实际就是在工作中应用，这个我也说不好，每个人都有自己的方法吧。
+其实，不管是大数据还是其他知识的学习，我认为最好的方法无非是先找个视频快速过一遍，总体上了解这门技术干嘛的，是否适合自己。然后结合官网文档细致地过一遍，学习过程中最好结合前人大牛的博客，都是经验之得你说要不要看。最后就是项目了，实际就是在工作中应用，这个我也说不好，每个人都有自己的方法吧。当然，深入看源码是躲不过的，[分享一个如何阅读Flink源码的回答](https://github.com/josonle/Interview-Summary/tree/master/EveryDay-Reading/2019-05-28#%E5%A6%82%E4%BD%95%E9%98%85%E8%AF%BB%E6%BA%90%E7%A0%81)，我自以为是有很大的帮助的
 
 ### 大数据开发环境安装配置
 
@@ -316,6 +330,9 @@
         - [InfoQ 百度智能监控场景下的 HBase 实践](https://www.infoq.cn/article/cFqcz5q*Amg68Bs9iPtC)
         - [NoSQL 数据库不应该放弃 Consistency](https://www.infoq.cn/article/rhzs0KI2G*Y2r9PMdeNv)
         - [HBase优化 | 合理的使用编码压缩](https://mp.weixin.qq.com/s?__biz=MzU5OTQ1MDEzMA==&mid=2247486295&idx=1&sn=d09ea57635d69eff0d019bc0932683ac&chksm=feb5fc2ac9c2753c11b3b16f8f46b7d25d7417f26e33c4a826ecfed30704698f3adcbc8f72ae&mpshare=1&scene=1&srcid=&pass_ticket=g47IpqbBUy279OZCQ48ENy0Ldd2cAi0OcIQyk9%2BzTlU%3D#rd)
+        - [Phoenix重磅 | Phoenix(云HBase SQL)核心功能原理及应用场景介绍](https://mp.weixin.qq.com/s?__biz=MzU5OTQ1MDEzMA==&mid=2247486436&idx=1&sn=e588c3909a22a49a39169992bf5c788c&chksm=feb5fc99c9c2758fb9d974cf2e05081ff3abafe8848cb7a3ae6a421f8bf4ca2e54632443a491)
+        - [HBase解读 | 阿里云HBase SQL(Phoenix)服务深度解读](https://mp.weixin.qq.com/s?__biz=MzU5OTQ1MDEzMA==&mid=2247486361&idx=1&sn=0a5b4000c07040c5795e00fe1a73eb88&chksm=feb5fce4c9c275f2b93c5d1cf4cf672d072c03cb7ed1afd5363b39e8b5ead0a5941229ad6b64)
+        - [BigData NoSQL：ApsaraDB HBase数据存储与分析平台概览](https://mp.weixin.qq.com/s?__biz=MzIxNTQ0MDQxNg==&mid=2247485179&idx=1&sn=a1f2d64476162d9606a4a9d881db0c46&chksm=97990bb4a0ee82a2ac8123b8bb6c92ca0694438a6b4cb006f954a503cd5f64360f58fd6cc78d)
 
 - [Apache Sqoop](http://sqoop.apache.org/): 是一个用来将Hadoop和关系型数据库中的数据相互转移的工具，可以将一个关系型数据库（MySQL ,Oracle ,Postgres等）中的数据导进到Hadoop的HDFS中，也可以将HDFS的数据导进到关系型数据库中
 
@@ -341,6 +358,7 @@
     - 阅读
       - [Kafka在字节跳动的实践和灾备方案](https://mp.weixin.qq.com/s?__biz=MzU3MzgwNTU2Mg==&mid=2247484788&idx=1&sn=5ca9db609918d04b156231b88744c2d6&chksm=fd3d43e1ca4acaf745acd281477e4f72024174add70f9f46d5c179637f31a6eeb373fc576520&mpshare=1&scene=1&srcid=&pass_ticket=g47IpqbBUy279OZCQ48ENy0Ldd2cAi0OcIQyk9%2BzTlU%3D#rd)
       - [快手万亿级别Kafka集群应用实践与技术演进之路](https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&mid=2247496484&idx=1&sn=4238cc7f88860559861178a083e5b475&chksm=fbea4aebcc9dc3fdb370a413e38daace82cbfb431108b1348bd20b13dc896c31eff39978a525&mpshare=1&scene=1&srcid=&pass_ticket=g47IpqbBUy279OZCQ48ENy0Ldd2cAi0OcIQyk9%2BzTlU%3D#rd)
+      - [基于磁盘的Kafka为什么这么快](https://mp.weixin.qq.com/s/Hy3npWsrJg6w9gvgkRD89Q)
 
 - 等等，当然不可能全学的
 
@@ -386,6 +404,8 @@
 - [SparkSQL性能分析与优化及相关工具小结](https://blog.csdn.net/kisimple/article/details/79426826)
 - [使用 Spark SQL 高效地读写 HBase](https://mp.weixin.qq.com/s?__biz=MzA5MTc0NTMwNQ==&mid=2650716619&idx=1&sn=0745298922471c9a90b561e6661a3ad1&chksm=887da4bdbf0a2dab9f846518e18a5cc99974483f09af5523e6ffa0451fac4caee77d6141902c&mpshare=1&scene=1&srcid=&pass_ticket=vPMuI9TAnmzdbyz0qcM4OQqDvmete3IBSHcVmBeVTYs%3D#rd)
 - Intel-Spark SQL优化实践.pdf
+- [Spark Shuffle在网易的优化](https://mp.weixin.qq.com/s?__biz=MzU5OTQ1MDEzMA==&mid=2247486455&idx=1&sn=b9896d9763df33a1624929ebd128dba0&chksm=feb5fc8ac9c2759ce596fbaa0c5977a9ec90a38d4e12449d4abc7a236389005de094769b37d6&mpshare=1&scene=1&srcid=&pass_ticket=UH54DeEP7T2eQkMQOxZLYgsAEOXnrb7XYWWvrlqptTk%3D#rd)
+- 
 - 视频和书籍资源见下方
 
 ### Flink系列
@@ -640,6 +660,10 @@ Arthas支持JDK 6+，支持Linux/Mac/Windows，采用命令行交互模式，同
 
 > 以上来源于大数据学习资源群的分享
 
+- 知识星球上球友分享的资源
+  - Spark SQL最佳实践.pdf
+  - RDD完整.pdf
+  - SparkSQL子查询源码阅读.pdf
 ### HBase系列资源
 
 [eBook/HBase系列](https://github.com/josonle/Coding-Now/tree/master/eBook/HBase系列)
